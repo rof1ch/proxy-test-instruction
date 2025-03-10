@@ -145,8 +145,15 @@
 
     ```json
     {
-        "username": "user1",
-        "password": "user"
+    "first_name": "user",
+    "last_name": "user",
+    "username": "user",
+    "password": "user",
+    "email": "user@user.loc",
+    "is_active": true,
+    "is_staff": false,
+    "is_superuser": false,
+    "permissions": null
     }
     ```
 
@@ -175,8 +182,6 @@
     {
         "first_name": "John",
         "last_name": "Doe",
-        "username": "admin",
-        "email": "john.doe@example.com",
         "is_active": false,
         "is_staff": true,
         "is_superuser": true,
